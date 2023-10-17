@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+/*メニュー②*/
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+	height: 100%;
+	text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: dimgray;
+    color: white;
+    position: fixed;
+    height: 20%;
+    top: 0;
+}
+.b{
+	color: red;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.h1 {
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    width: 30%;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.title{
+	color: white;
+	font-size: 200%;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:50%;
+    justify-content: center;
+    font-size: 120%;
+}
+
+.div3{
+	color: indianred;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+main {
+    margin-top: 20%;
+    margin-bottom: 15%;
+    height: auto;
+}
+
+.buttun {
+    background-color: #302833;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 5% 0;
+}
+
+.div4{
+	width: 60%; 
+	margin: auto; 
+	padding: 20px; 
+	background-color: indianred; 
+	border-radius: 18px
+}
+
+.a{
+	color:#222222;
+}
+
+.table2 {
+    width: 90%;
+    font-size: 25px;
+    color:#222222;
+}
+
+tr{
+	height:60px;
+	text-align: center;
+}
+
+th{
+	font-size: 20px;
+}
+
+td{
+	font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: dimgray;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+/*トップメニュー*/
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: dimgray;
+    color: white;
+    position: fixed;
+    height: 20%;
+    top: 0;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.h1 {
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    width: 30%;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.title{
+	color: white;
+	font-size: 250%;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:50%;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.div3{
+	color: indianred;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+main {
+    margin-top: 15vh;
+    height: auto;
+}
+

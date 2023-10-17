@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*トップメニュー*/
+
+body{
+	height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: dimgray;
+    color: white;
+    position: fixed;
+    height: 20%;
+    top: 0;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.h1 {
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    width: 30%;
+    font-size: 30px;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:50%;
+    justify-content: center;
+    font-size: 120%;
+}
+
+.div3{
+	color: indianred;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+main {
+    margin-top: 25%;
+    margin-bottom: 10%;
+    height: auto;
+    
+}
+
+.div4 {
+    width: 90%;
+    background-color: indianred;
+    font-size: 20px;
+    margin-inline: auto;
+    margin-bottom: 3%;
+    height:100px;
+    position:relative;
+}
+
+.table1{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+}
+
+.menu{
+	color: white;
+}
+
+.img {
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.p {
+    /* height: 50%; */
+    margin: auto 0;
+    font-size: 30px;
+    /* position: absolute; */
+    /* top: 50%; */
+    width: 100%;
+    padding-top: 10%;
+}
+
+.p2 {
+    width: 95%;
+    background-color: indianred;
+    font-size: 20px;
+    /* margin-inline: auto; */
+    margin-top: 0;
+    margin-bottom: 3%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 200%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.buttun {
+    width: 90%;
+    height: 100%;
+    font-size: 3vh;
+    color: white;
+    background-color: indianred;
+    margin-bottom: 3%;
+}
