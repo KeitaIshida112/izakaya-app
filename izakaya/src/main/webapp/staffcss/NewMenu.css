@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+main{
+	text-align: center;
+}
+
+.msg{
+	color:crimson;
+	font-size: 30px;
+}
+
+.table1 {
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+tr{
+	height:60px;
+	text-align: center;
+}
+
+th{
+	font-size: 25px;
+}
+
+td{
+	font-size: 20px;
+}
+
+.text{
+	height:70%;
+	width:50%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.submit{
+	height:90%;
+	width:100px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 10px;
+}
+
+.p{
+	height:50px;
+	text-align: center;
+}
+
+.p2{
+	padding: 30px 0;
+	font-size: 25px;
+}

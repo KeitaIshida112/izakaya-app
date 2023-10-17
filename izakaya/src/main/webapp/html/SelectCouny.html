@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--個数選択-->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/kokoro.css">
+		<link rel="stylesheet" type="text/css" href="./css/SelectCount.css">
+	</head>
+	<title>個数選択画面</title>
+</head>
+
+<body>
+	<header>
+		<div class="div1">
+			<h2>ORDER SYSTEM</h2>
+			<h1 class="h1">
+				卓No.</h1>
+		</div>
+		<div class="div2">
+			<div>
+				<a href="/izakaya/MainMenu" style="color: white">TOP</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="" style="color: white">カート</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="" style="color: white">注文履歴</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="OkaikeiMenu" style="color: white">お会計</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<h2>個数選択</h2>
+		<form action="OrderSet" method="post">
+			<table class="table1" align="center">
+				<tr>
+					<th width="30%">商品名</th>
+					<th></th>
+					<th>個数</th>
+				</tr>
+				
+						<tr>
+							<td></td>
+							<td>………</td>
+							<td><input type="number" name="count" value="<%= orderCount.get(menu.getMenuId()) %>"></td>
+						</tr>
+			</table>
+			<p><input class="bottun" type="submit" value="確定"></p>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 居酒屋</p>
+	</footer>
+</body>
+
+</html>

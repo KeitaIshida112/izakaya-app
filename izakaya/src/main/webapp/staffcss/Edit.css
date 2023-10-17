@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body{
+	text-align: center;
+}
+
+main{
+	text-align: center;
+}
+
+.msg{
+	color:crimson;
+	font-size: 30px;
+}
+
+.text{
+	height:90%;
+	width:90%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.select{
+	height:90%;
+	width:90%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.p{
+	height:50px;
+	text-align: center;
+}
+
+.submit{
+	height:90%;
+	width:100px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 10px;
+}
+
+.table1 {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+tr{
+	height:40px;
+	text-align: center;
+}
+
+th{
+	font-size: 25px;
+}
+
+td{
+	font-size: 20px;
+}
+
+.input{
+	height:16px;
+	width:16px;
+}
+
+.p2{
+	padding: 30px 0;
+	font-size: 25px;
+}

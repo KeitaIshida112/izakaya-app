@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>お会計</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/kokoro.css">
+	<link rel="stylesheet" type="text/css" href="./css/okaikei.css">
+</head>
+
+<body style="margin:auto; text-align:center">
+	<header>
+		<div class="div1">
+			<h2>ORDER SYSTEM</h2>
+			<h1 class="h1">
+				卓No.<%=guest.getTable()%></h1>
+		</div>
+		<div class="div2">
+			<div>
+				<a href="/izakaya/MainMenu" style="color: white">TOP</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="" style="color: white">カート</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="" style="color: white">注文履歴</a>
+			</div>
+			<div class="div3">|</div>
+			<div>
+				<a href="OkaikeiMenu" style="color: white">お会計</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<h3 class="h">お会計</h3>
+		<table class="table1" align="center">
+			<tr>
+				<th>商品名</th>
+				<th></th>
+				<th width="10%">個数</th>
+				<th width="30%">値段</th>
+			</tr><tr>
+				<td align="left"></td>
+				<td>……</td>
+				<td align="center"></td>
+				
+				<td align="right">
+				</td>
+			</tr>
+			
+		</table>
+
+		<p class="h">合計、00000</p>
+
+		<p class="h"><a href = "MainMenu">メニューへ戻る</a></p>
+	</main>
+	<footer>
+		<p>&copy; 2023 居酒屋</p>
+	</footer>
+</body>
+
+</html>

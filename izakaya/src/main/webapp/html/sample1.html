@@ -1,0 +1,67 @@
+<!--注文リスト-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<!--自動更新 -->
+	<meta http-equiv="refresh" content="5000">
+	<!--cssの取得 -->
+	<link rel="stylesheet" type="text/css" href="./css/sample1.css">
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="block1">ようこそ、居酒屋へ</h1>
+		<div class="block2">
+			<nav>
+				<ul>
+					<li><a href="http://localhost:8080/izakaya/html/sample1.html">注文リスト</a>⑤</li>
+					<li><a href="http://localhost:8080/izakaya/html/sample3.html">注文履歴</a></li>
+					<li><a href="http://localhost:8080/izakaya/html/sample2.html">お会計</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h1 class="h">〇〇卓</h1>
+		<h3 class="h">注文リスト</h3>
+		<table class="table1" align="center">
+			<tr>
+				<th>商品名</th>
+				<th></th>
+				<th width="70">個数</th>
+				<th>値段</th>
+			</tr>
+			<tr>
+				<td align="left"><a href="">生ビール</a></td>
+				<td>……</td>
+				<td align="center">3個</td>
+				<td align="right">1500円</td>
+			</tr>
+			<tr>
+				<td align="left"><a href="">枝豆</a></td>
+				<td>……</td>
+				<td align="center">1個</td>
+				<td align="right">300円</td>
+			</tr>
+			<tr>
+				<td align="left"><a href="">唐揚げ</a></td>
+				<td>……</td>
+				<td align="center">1個</td>
+				<td align="right">500円</td>
+			</tr>
+		</table>
+		<p class="h"><input class="botton" type="submit" value="注文"></p>
+		<p class="h"><input class="botton" type="button" value="メニューへ戻る"
+				onclick="location.href='http://localhost:8080/izakaya/html/NewFile.html'"></p>
+		<!--<button onclick="location.href='http://localhost:8080/izakaya/NewFile.html'">メニューへ戻る</button>-->
+	</main>
+	<footer>
+		<p>&copy; 2023 居酒屋</p>
+	</footer>
+</body>
+
+</html>

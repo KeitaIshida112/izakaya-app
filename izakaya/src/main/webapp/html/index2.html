@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<header>
+		<h1 class="h1">ようこそ、居酒屋へ</h1>
+	</header>
+
+	<main>
+		<form action="MainMenu" method="post">
+			<div class="div1">
+				<p class="p1">ご来店ありがとうございます</p>
+				<!--<p class="p1">テーブル番号とご来店人数を入力してください</p>-->
+				<table class="table1">
+					<tr>
+						<td class="left"><p>席番号</p></td>
+						<td class="right"><div><input type="number" name="table" min="1"></div></td>
+					</tr>
+					<tr>
+						<td class="left"><p>ご来店人数</td>
+						<td class="right"><div><input type="number" name="number" min="1" value="1"></div></td>
+					</tr>
+				</table>
+				<p class="p4"><input class="buttun" type="submit" value="メニューへ"></p>
+			</div>
+		</form>
+	</main>
+
+	<footer>
+		<p class="p2">&copy; 2023 居酒屋</p>
+		<p class="p3"><a href="">staff only</a></p>
+	</footer>
+</body>
+
+</html>
